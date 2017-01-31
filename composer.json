@@ -1,0 +1,35 @@
+{
+  "name": "researchpartnership/fusionchart-php-wrapper",
+  "type": "library",
+  "description": "A php wrapper fusioncharts",
+  "keywords": ["fusionchart", "php", "charts", "javascript", "wrapper"],
+  "homepage": "",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Andrey C. Moretti",
+      "email": "andreymor@gmail.com",
+      "homepage": "",
+      "role": "Software Architect"
+    },
+    {
+      "name": "Danilo Esser",
+      "email": "daniloesser@gmail.com",
+      "homepage": "",
+      "role": "Software Architect"
+    }
+  ],
+  "support": {
+    "email": "andreymor@gmail.com",
+    "issues": "",
+    "source": ""
+  },
+  "require": {
+    "php": ">=5.5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "ResearchPartnerShip\\FusionChartPhpWrapper\\": "src/"
+    }
+  }
+}
